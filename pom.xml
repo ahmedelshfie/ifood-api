@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>br.com.ifood</groupId>
 	<artifactId>ifood</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.1</version>
 	<name>ifood</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -81,7 +81,7 @@
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.0</version>
 				<configuration>
-					<repository>ahmedelshfie/ifood-api</repository>
+					<repository>ahmedelshfie/ifood</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
 						<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
